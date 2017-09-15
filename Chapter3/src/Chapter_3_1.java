@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Chapter_2_8 {
+public class Chapter_3_1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -9,6 +9,7 @@ public class Chapter_2_8 {
 		while(true)
 		{
 			int score = in.nextInt();
+			
 			if(score<=100 && score>=0)
 			{
 				if(score<=100 && score>=90)
