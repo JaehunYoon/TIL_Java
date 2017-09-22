@@ -1,23 +1,21 @@
 import java.util.Scanner;
 
-public class Chapter_3_7 {
+public class Chapter_3_8 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner in = new Scanner(System.in);
+		int average=0;
 		
 		int intArray[] = new int[5];
-		int max=0;
 		
-		for(int i=0;i<5;i++)
+		for(int i=0;i<intArray.length;i++)
 		{
 			intArray[i]=in.nextInt();
-			
-			if(max<intArray[i])
-				max=intArray[i];
+			average+=intArray[i];
 		}
 		in.close();
-		System.out.print("입력된 수에서 가장 큰 수는 "+max+" 입니다.");
+		System.out.print("입력받은 값의 평균은 "+ average/intArray.length + "입니다.");
 	}
 
 }

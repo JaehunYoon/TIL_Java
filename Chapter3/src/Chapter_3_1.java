@@ -12,18 +12,27 @@ public class Chapter_3_1 {
 			
 			if(score<=100 && score>=0)
 			{
-				if(score<=100 && score>=90)
+				if(score<=100 && score>=90) {
 					System.out.println("A");
-				else if(score<=90 && score>=80)
+					break;
+					}
+				else if(score<=90 && score>=80) {
 					System.out.println("B");
-				else if(score<=80 && score>=60)
+					break;
+					}
+				else if(score<=80 && score>=60) {
 					System.out.println("C");
-				else
+					break;
+					}	
+				else {
 					System.out.println("F");
+					break;
+					}
 			}
 			else
 				System.out.println("0 이상 100 이하의 값만 입력하세요.");
 		}
+		in.close();
 	}
 
 }
