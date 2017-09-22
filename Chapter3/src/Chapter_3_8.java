@@ -5,7 +5,7 @@ public class Chapter_3_8 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner in = new Scanner(System.in);
-		int average=0;
+		double average=0;
 		
 		int intArray[] = new int[5];
 		
